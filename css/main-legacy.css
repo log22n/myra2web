@@ -2478,6 +2478,32 @@ input[type="range"]:focus {
     text-align: center;
 }
 
+/* 「使用本站资源」区块。这是首次进站最该点的按钮，所以放在最上面并且给足视觉重量。 */
+#ra2web-root .game-res-box.message-box .message-box-content .cdn-container {
+    margin-bottom: 6px;
+}
+
+#ra2web-root .game-res-box.message-box .message-box-content .cdn-container .cdn-desc {
+    margin: 0 0 6px;
+    text-align: center;
+}
+
+/* 按钮文字换行会让这一块凭空高出一行，对话框内容本来就贴着底。 */
+#ra2web-root .game-res-box.message-box .message-box-content .cdn-container .dialog-button {
+    white-space: nowrap;
+}
+
+#ra2web-root .game-res-box.message-box .message-box-content .cdn-container .download-button {
+    margin: 0;
+    text-align: center;
+}
+
+#ra2web-root .game-res-box.message-box .message-box-content .cdn-container .cdn-divider {
+    margin: 8px 0 0;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, .25);
+}
+
 #ra2web-root .game-res-box.message-box .message-box-content em {
     font-size: 11px;
 }
