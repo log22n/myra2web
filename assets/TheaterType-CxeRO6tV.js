@@ -1,0 +1,1 @@
+var e=function(e){return e[e.None=0]=`None`,e[e.Temperate=1]=`Temperate`,e[e.Urban=2]=`Urban`,e[e.Snow=4]=`Snow`,e[e.Lunar=8]=`Lunar`,e[e.Desert=16]=`Desert`,e[e.NewUrban=32]=`NewUrban`,e[e.All=63]=`All`,e}({});export{e as t};

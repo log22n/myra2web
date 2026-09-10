@@ -1,0 +1,1 @@
+var e=class{controller;setController(e){this.controller=e}};export{e as t};

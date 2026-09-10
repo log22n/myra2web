@@ -1,0 +1,1 @@
+var e=function(e){return e[e.Low=0]=`Low`,e[e.High=1]=`High`,e}({});export{e as t};

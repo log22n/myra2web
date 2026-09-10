@@ -1,0 +1,1 @@
+var e=class extends Error{};export{e as t};

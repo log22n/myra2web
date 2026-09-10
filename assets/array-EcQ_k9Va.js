@@ -1,0 +1,1 @@
+function e(e,t){for(let n=e.length-1;n>=0;n--)if(t(e[n],n,e))return e[n]}function t(e,t){for(let n=e.length-1;n>=0;n--)if(t(e[n],n,e))return n;return-1}function n(e,t){if(e.length!==t.length)return!1;for(let n=0,r=e.length;n<r;n++)if(e[n]!==t[n])return!1;return!0}export{t as n,e as r,n as t};

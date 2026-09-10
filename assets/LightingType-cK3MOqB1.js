@@ -1,0 +1,1 @@
+var e=function(e){return e[e.None=0]=`None`,e[e.Global=1]=`Global`,e[e.Level=2]=`Level`,e[e.Ambient=3]=`Ambient`,e[e.Full=4]=`Full`,e[e.Default=5]=`Default`,e}({});export{e as t};

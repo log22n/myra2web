@@ -1,0 +1,1 @@
+import{a as e}from"./string-B_51f84H.js";function t(t,n=!1){let r=Math.floor(t/3600);t-=3600*r;let i=Math.floor(t/60);return t=Math.floor(t-60*i),[...r||!n?[r]:[],e(i,`00`),e(t,`00`)].join(`:`)}export{t};

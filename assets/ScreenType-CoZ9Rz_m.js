@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-DseTPa7n.js";var t=e({ScreenType:()=>n}),n=function(e){return e[e.Home=0]=`Home`,e[e.Diplo=1]=`Diplo`,e[e.ConnectionInfo=2]=`ConnectionInfo`,e[e.QuitConfirm=3]=`QuitConfirm`,e[e.Options=4]=`Options`,e[e.OptionsSound=5]=`OptionsSound`,e[e.OptionsKeyboard=6]=`OptionsKeyboard`,e}({});export{t as n,n as t};

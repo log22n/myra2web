@@ -1,0 +1,1 @@
+var e=class{pointerEvents;cameraZoom;handleWheel;constructor(e,t){this.pointerEvents=e,this.cameraZoom=t,this.handleWheel=e=>{this.cameraZoom.applyStep(e.wheelDeltaY>0?-.1:.1)}}init(){this.pointerEvents.addEventListener(`canvas`,`wheel`,this.handleWheel)}destroy(){this.pointerEvents.removeEventListener(`canvas`,`wheel`,this.handleWheel)}};export{e as t};

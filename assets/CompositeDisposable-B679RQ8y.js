@@ -1,0 +1,1 @@
+var e=class{disposables=new Set;add(...e){e.forEach(e=>{this.disposables.add(e)})}remove(...e){e.forEach(e=>{this.disposables.delete(e)})}dispose(){this.disposables.forEach(e=>{typeof e==`function`?e():`dispose`in e?e.dispose():`destroy`in e&&e.destroy()}),this.disposables.clear()}};export{e as t};

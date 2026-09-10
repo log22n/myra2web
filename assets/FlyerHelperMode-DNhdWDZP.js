@@ -1,0 +1,1 @@
+var e=function(e){return e[e.Always=0]=`Always`,e[e.Selected=1]=`Selected`,e[e.Never=2]=`Never`,e}({});export{e as t};

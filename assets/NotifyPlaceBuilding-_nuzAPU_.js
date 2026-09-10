@@ -1,0 +1,1 @@
+var e={onPlace:Symbol()};export{e as t};

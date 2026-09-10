@@ -1,0 +1,1 @@
+var e=class{listeners;constructor(){this.listeners=new Set}subscribe(e){this.listeners.add(e)}subscribeOnce(e){let t=(n,r)=>{e(n,r),this.unsubscribe(t),t=void 0};this.subscribe(t)}unsubscribe(e){this.listeners.delete(e)}dispatch(e,t){this.listeners.forEach(n=>n(t,e))}asEvent(){return this}};export{e as t};

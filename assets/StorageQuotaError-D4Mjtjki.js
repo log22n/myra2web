@@ -1,0 +1,1 @@
+var e=class e extends Error{cause;constructor(t=`Storage quota exceeded`,n){super(t),this.name=`StorageQuotaError`,n&&(this.cause=n),Object.setPrototypeOf(this,e.prototype)}};export{e as t};

@@ -1,0 +1,1 @@
+var e=function(e){return e[e.Master=0]=`Master`,e[e.Ui=1]=`Ui`,e[e.Ambient=2]=`Ambient`,e[e.Effect=3]=`Effect`,e[e.Voice=4]=`Voice`,e[e.Music=5]=`Music`,e[e.CreditTicks=6]=`CreditTicks`,e}({});export{e as t};

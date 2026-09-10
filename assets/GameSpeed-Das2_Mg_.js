@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-DseTPa7n.js";var t=e({GameSpeed:()=>n}),n=class e{static BASE_TICKS_PER_SECOND=15;static computeGameSpeed(t){let n;return n=t===6?60:t===5?45:60/(6-t),n/e.BASE_TICKS_PER_SECOND}};export{t as n,n as t};
