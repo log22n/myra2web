@@ -3326,3 +3326,59 @@ input[type="range"]:focus {
     max-height: 96px;
     overflow-y: auto;
 }
+
+/* 联机大厅：口令表单和房间列表。面板、输入框、按钮沿用局域网页面（.lan-setup-form）的样式。
+   HtmlView 的容器是 0×0，内容靠溢出显示：外层不能设 height:100% + overflow，否则只剩内边距那一条。 */
+
+#ra2web-root .lan-lobby-form .lan-lobby-passphrase-panel {
+    max-width: 560px;
+}
+
+#ra2web-root .lan-lobby-form .lan-lobby-field-gap {
+    margin-top: 12px;
+}
+
+#ra2web-root .lan-lobby-form .lan-lobby-online {
+    color: silver;
+    margin-bottom: 8px;
+}
+
+#ra2web-root .lan-setup-form .lan-lobby-error {
+    color: #ff6666;
+    margin: 8px 0;
+}
+
+/* 房间多时只让表格滚动，不撑出主菜单框。 */
+#ra2web-root .lan-lobby-form .lan-lobby-table-wrap {
+    max-height: 380px;
+    overflow: auto;
+}
+
+#ra2web-root .lan-lobby-form .lan-lobby-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+}
+
+#ra2web-root .lan-lobby-form .lan-lobby-table th {
+    text-align: left;
+    font-weight: normal;
+    color: silver;
+    padding: 4px 8px;
+    border-bottom: 1px solid red;
+}
+
+#ra2web-root .lan-lobby-form .lan-lobby-table td {
+    padding: 6px 8px;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.35);
+    vertical-align: middle;
+}
+
+#ra2web-root .lan-lobby-form .lan-lobby-table td:last-child {
+    text-align: right;
+    white-space: nowrap;
+}
+
+#ra2web-root .lan-lobby-form .lan-lobby-status {
+    white-space: nowrap;
+}

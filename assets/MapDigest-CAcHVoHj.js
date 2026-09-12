@@ -1,0 +1,1 @@
+import{t as e}from"./Crc32-CuVenN8h.js";var t=class{static compute(t){return e.calculateCrc(t.getBytes()).toString(16)}};export{t};

@@ -1,0 +1,1 @@
+var e=function(e){return e[e.Closed=0]=`Closed`,e[e.Open=1]=`Open`,e[e.OpenObserver=2]=`OpenObserver`,e[e.Player=3]=`Player`,e[e.Ai=4]=`Ai`,e}({});export{e as t};
