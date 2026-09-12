@@ -2605,6 +2605,37 @@ input[type="range"]:focus {
     color: orangered;
 }
 
+#ra2web-root .score-wrapper .score-lan-report {
+    margin-top: 16px;
+    padding-top: 8px;
+    border-top: 1px red solid;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+#ra2web-root .score-wrapper .score-lan-report-title {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    margin-bottom: 4px;
+}
+
+#ra2web-root .score-wrapper .score-lan-report-hint {
+    color: #55ff55;
+}
+
+/* 等待页里房主可点的「输入延迟：自动 / 关」胶囊。颜色仍由 tone-* 决定。 */
+#ra2web-root .lan-setup-form button.lan-status-chip {
+    font: inherit;
+    cursor: pointer;
+}
+
+#ra2web-root .lan-setup-form button.lan-status-chip:hover,
+#ra2web-root .lan-setup-form button.lan-status-chip:focus-visible {
+    background: rgba(255, 0, 0, 0.18);
+    outline: none;
+}
+
 #ra2web-root .patch-notes,
 #ra2web-root .ladder-rules {
     padding: 5px;
