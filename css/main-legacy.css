@@ -2605,6 +2605,20 @@ input[type="range"]:focus {
     color: orangered;
 }
 
+/* 结算页 AI 名字下面那一行：这局的打法和切换（AiMatchReport.ts）。 */
+#ra2web-root .score-wrapper tr.score-ai-playbook td {
+    width: auto;
+    padding: 0 0 6px 12px;
+    font-size: 12px;
+    opacity: 0.85;
+}
+
+#ra2web-root .score-wrapper .score-ai-report-hint {
+    margin-top: 8px;
+    color: #55ff55;
+    font-size: 13px;
+}
+
 #ra2web-root .score-wrapper .score-lan-report {
     margin-top: 16px;
     padding-top: 8px;
