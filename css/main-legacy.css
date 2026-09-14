@@ -2456,6 +2456,17 @@ input[type="range"]:focus {
     background: orangered;
 }
 
+/* 对局出错弹窗（ErrorHandler.showCrashReport）：错误原因可能很长，内容区滚动、文字可以选中复制。 */
+#ra2web-root .crash-error-box.message-box .message-box-content {
+    box-sizing: border-box;
+    height: 262px;
+    padding: 36px 36px 8px;
+    overflow-y: auto;
+    word-break: break-word;
+    user-select: text;
+    -webkit-user-select: text;
+}
+
 #ra2web-root .game-res-box.message-box .message-box-content .link-container .link-field {
     display: flex;
     align-items: baseline;
